@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Carlos Barbosa",
   "license": "MIT",
+  "scripts": {
+    "execute": "yarn tsc && node build/index.js"
+  },
   "dependencies": {
     "typescript": "^4.9.4"
   }
